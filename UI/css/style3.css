@@ -45,10 +45,10 @@ header{
 		font-weight:bold;
 	}
 
-	/*LogIn boxes*/
-	#LogIn{
+	/*Reset boxes*/
+	#Reset{
 		width: 400px;
-		height:300px;
+		height:200px;
 		top: 20%;
 		left: 35%;
 		position: absolute;
@@ -64,34 +64,25 @@ header{
 		font-size: 16px;
 		
 	}
-	#LogIn p{
+	#Reset p{
 		margin:0;
 		padding:0%;	
 		text-align: left-side;
 	}
 	
-	#LogIn input {
+	#Reset input {
 		width: 100%;
 		margin-bottom: 20px;
 		background-color:#eaece5;
 		}
 	
-	#LogIn input {
+	#Reset input {
 		border: none;
 		border-bottom: 1px solid;
 		height: 40px;
 		}
 		
-		/*button*/
-button {
-  background-color: ##eaece5;
-  border: 1px solid;
-   padding: 0;
-  text-align: center;
-   font-size: 16px;
-  width: 100%;
-height: 40px;
-}
+		
 		
 		footer {
 		padding: 10px;
