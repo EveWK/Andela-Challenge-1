@@ -44,7 +44,7 @@ header{
 		color: ##b2c2bf;
 		font-weight:bold;
 	}
-	
+
 	/*Sign up boxes*/
 	#SignUp{
 		width: 400px;
@@ -54,17 +54,38 @@ header{
 		position: absolute;
 		box-sizing:border-box;
 		background-color: #b2c2bf;
-			}
+		}
 			
 	h1{
 		padding:0;
 		margin:0;
 		text-align: center;
-		font-size: 20px
+		font-size: 16px;
+		
 	}
-		footer{
-			padding: 10px;
-			background-color: #c0ded9;
-			text-align: center;
-			font-size: 10px
+	#SignUp p{
+		margin:0;
+		padding:0%;	
+		text-align: left-side;
+	}
+	
+	#SignUp input {
+		width: 100%;
+		margin-bottom: 20px;
+		background-color:#eaece5;
+		}
+	
+	#SignUp input {
+		border: none;
+		border-bottom: 1px solid;
+		height: 40px;
+		}
+		footer {
+		padding: 10px;
+		background-color: #c0ded9;
+		text-align: center;
+		font-size: 10px;
+		bottom: 0;
+		position: absolute;
+		width: 100%;
 		}
