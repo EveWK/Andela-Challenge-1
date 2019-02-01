@@ -65,9 +65,33 @@ header{
 		font-size: 16px;
 		
 	}
-		
 	
-
+		/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+/* Control the left side */
+.left {
+   background-color: #b2c2bf;
+  	border-bottom: #b2c2bf 4px solid;
+	width: 20%;
+	padding:0 0 0 5%;
+	color:#ffffff;
+	font-size: 20px;
+	}
+	.splitleft li {
+		padding:0;
+		margin:0;
+		text-align: center;
+		font-size: 20px;
+		color:#ffffff;
+		float: center;
+			}
 		/*button*/
 button {
   background-color: ##eaece5;
@@ -88,8 +112,8 @@ height: 40px;
 	form {
   overflow: hidden;
   	width: 400px;
-		height:400px;
-		top: 20%;
+		height:500px;
+		top: 15%;
 		left: 35%;
 		position: absolute;
 		box-sizing:border-box;
@@ -102,7 +126,7 @@ input {
   clear: both;
 }
 	
-		footer {
+footer {
 		padding: 10px;
 		background-color: #c0ded9;
 		text-align: center;
