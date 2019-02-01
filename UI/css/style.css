@@ -1,0 +1,112 @@
+body{
+	font-family: "Verdana", Arial, Sans-serif;
+	font-size: 18px;
+	line-height: 2.0;
+	padding:0;
+	margin:0;
+	background-color:#eaece5;
+	max-width: 100%;
+	overflow-x: hidden;
+	}
+/*global*/
+/*container set to 80% of responsive devices, with the margin auto(center)*/
+.container{
+		width:80%;
+		margin:auto;
+		overflow:hidden;
+}
+/*header*/
+header{
+	background: #3b3a30;
+	text-transform: uppercase;
+	color:#ffffff;
+	padding-top: 20px;
+	border-bottom: #b2c2bf 4px solid;
+	text-align: center;
+		}
+		
+		/*For the links*/
+	header  a{
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size:16px;
+	}
+	/*For the list format*/
+	header ul{
+		padding: 0px;
+		margin:0px;
+	}
+	header li{
+		float: center;
+		display: inline;
+		padding: 0 20px 0 20px;
+	}
+	header .current a{
+		color: ##b2c2bf;
+		font-weight:bold;
+	}
+
+	h1{
+		padding:0;
+		margin:0;
+		text-align: center;
+		font-size: 16px;
+		
+	}
+	
+		/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+/* Control the left side */
+.left {
+   background-color: #b2c2bf;
+  	border-bottom: #b2c2bf 4px solid;
+	width: 20%;
+	padding:0 0 0 5%;
+	color:#ffffff;
+	font-size: 20px;
+	}
+	.splitleft li {
+		padding:0;
+		margin:0;
+		text-align: center;
+		font-size: 20px;
+		color:#ffffff;
+		float: center;
+		width: 20%;
+			}
+
+table {
+		top: 18%;
+		left: 35%;
+		position: fixed;
+		background-color: #b2c2bf;
+		font-size: 14px;
+		border: solid black 1px;
+		overflow-x:hidden;
+		width: 70%;
+		}
+table th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;  
+  width: 0px;
+  height: 10px;
+  }
+	
+#footer {
+		padding: 10px;
+		background-color: #c0ded9;
+		text-align: center;
+		font-size: 10px;
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+		}
